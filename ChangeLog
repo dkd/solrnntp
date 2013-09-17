@@ -1,0 +1,44 @@
+2010-07-16 Markus Goldbach <markus.goldbach@dkd.de>
+
+	* change solr path
+
+2009-10-19 Ingo Renner  <ingo@typo3.org>
+
+	* Adjusted the NNTP server address to the new lists.typo3.org server
+
+2009-09-07 Ingo Renner  <ingo@typo3.org>
+
+	* Added a viewhelper to mask emails
+
+2009-08-31 Ingo Renner  <ingo@typo3.org>
+
+	* Adapted the scheduler task definition to the last changes in EXT:scheduler
+	* Added additional information to the index task list title to easily distinguish multiple index tasks
+	* Fixed calculation of indentation of single messages
+
+2009-08-27 Ingo Renner  <ingo@typo3.org>
+
+	* added escaping to the article title and body
+
+2009-08-24 Ingo Renner  <ingo@typo3.org>
+
+	* fixed processing of author names and emails
+	* added the basic structure for the message view plugin
+	* added initial rendering of articles
+	* added a view helper to format articles
+	* added advanced quoting to the article formatting viewhelper
+
+2009-08-21 Ingo Renner  <ingo@typo3.org>
+
+	* added an additional field provider for the scheduler interface to edit limit and groups
+	* added a query modifier to remove the sitehash filter
+
+2009-08-20 Ingo Renner  <ingo@typo3.org>
+
+	* added initial traversing of groups
+	* added indexing of groups
+
+2009-08-18 Ingo Renner  <ingo@typo3.org>
+
+	* added initial indexer task scaffolding
+	* initial code generated with kickstarter
