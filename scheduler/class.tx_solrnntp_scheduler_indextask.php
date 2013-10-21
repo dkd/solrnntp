@@ -326,7 +326,7 @@ class tx_solrnntp_scheduler_IndexTask extends tx_scheduler_Task {
 		$charset = 'utf-8'; // assuming the best case
 
 		$matches = array();
-		preg_match('/ charset=(.*?) /i', $articleHeader, $matches);
+		preg_match('/charset="?([^";]*)/i', $articleHeader, $matches);
 
 		if (!isset($matches[1])) {
 				// cut off the semicolon in case there's one
